@@ -1,11 +1,15 @@
 <resources>
     <string name="app_name">QuizApp</string>
-    <string name="アニメタイトルへ">Anime_Title</string>
-    <string name="ジャンルへ">Janru</string>
-    <string name="解答結果">Answer_Result</string>
-    <string name="〇問中〇問正解">Correct</string>
-    <string name="番号">Number</string>
-    <string name="正誤">True_False</string>
-    <string name="解">Anser</string>
-    <string name="あなた">You</string>
+    <string name="Anime_Title">アニメタイトルへ</string>
+    <string name="Title_btn">タイトルへ</string>
+    <string name="Janru">ジャンルへ</string>
+    <string name="Answer_Result">解答結果</string>
+    <string name="Correct">〇問中〇問正解</string>
+    <string name="Number">番号</string>
+    <string name="True_False">正誤</string>
+    <string name="Anser">解</string>
+    <string name="You">あなた</string>
+    <string name="animeTitle_select">アニメタイトル選択</string>
+    <string name="select">全選択</string>
+    <string name="deselect">全選択解除</string>
 </resources>
