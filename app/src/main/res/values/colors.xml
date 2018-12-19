@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="backGroundColor">#b6e7ff</color>
+    <color name="titleColor">#08088a</color>
+    <color name="selectorColor">#0060eb</color>
+    <color name="normalColor">#5896e3</color>
+    <color name="titleBtnColor">#eac350</color>
+    <color name="backBtnColor">#fefa7c</color>
+    <color name="nextBtnColor">#f4750d</color>
 </resources>
