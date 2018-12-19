@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="backGroundColor">#b6e7ff</color>
-    <color name="titleColor">#08088a</color>
-    <color name="selectorColor">#0060eb</color>
+    <color name="backGroundColor">#abd9ff</color>
+    <color name="titleColor">#090089</color>
+    <color name="selectorColor">#0070db</color>
     <color name="normalColor">#5896e3</color>
-    <color name="titleBtnColor">#eac350</color>
-    <color name="backBtnColor">#fefa7c</color>
-    <color name="nextBtnColor">#f4750d</color>
+    <color name="titleBtnColor">#fcdc74</color>
+    <color name="backBtnColor">#ffff89</color>
+    <color name="nextBtnColor">#c46510</color>
+    <color name="back_title_color">#e16b10</color>
+    <color name="white_color">#ffffff</color>
 </resources>
