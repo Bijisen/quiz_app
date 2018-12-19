@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">QuizApp</string>
+    <string name="アニメタイトルへ">Anime_Title</string>
+    <string name="ジャンルへ">Janru</string>
+    <string name="解答結果">Answer_Result</string>
+    <string name="〇問中〇問正解">Correct</string>
+    <string name="番号">Number</string>
+    <string name="正誤">True_False</string>
+    <string name="解">Anser</string>
+    <string name="あなた">You</string>
 </resources>
