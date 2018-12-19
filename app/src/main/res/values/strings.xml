@@ -12,4 +12,7 @@
     <string name="animeTitle_select">アニメタイトル選択</string>
     <string name="select">全選択</string>
     <string name="deselect">全選択解除</string>
+    <string name="back">戻る</string>
+    <string name="submit">確定する</string>
+    <string name="Genre_selection">ジャンル選択画面</string>
 </resources>
