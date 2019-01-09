@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="backGroundColor">#abd9ff</color>
+    <color name="titleColor">#090089</color>
+    <color name="selectorColor">#0070db</color>
+    <color name="normalColor">#5896e3</color>
+    <color name="titleBtnColor">#fcdc74</color>
+    <color name="backBtnColor">#ffff89</color>
+    <color name="nextBtnColor">#c46510</color>
+    <color name="back_title_color">#e16b10</color>
+    <color name="white_color">#ffffff</color>
 </resources>
