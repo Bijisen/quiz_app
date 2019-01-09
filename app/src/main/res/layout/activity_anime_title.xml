@@ -43,7 +43,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="269"
+        android:layout_width="269dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -60,7 +60,7 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="269"
+        android:layout_width="269dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
