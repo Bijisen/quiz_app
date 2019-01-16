@@ -20,7 +20,7 @@
         android:padding="0dp"
         android:textColor="#d71"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/nextButton"
+        app:layout_constraintEnd_toStartOf="@+id/resultButton"
         app:layout_constraintStart_toEndOf="@+id/undoButton"
         tools:text="タイトルへ" />
 
@@ -40,6 +40,7 @@
         android:layout_height="40dp"
         android:background="@drawable/nextbtn_border"
         android:textColor="#fff"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="@+id/titleButton"
         app:layout_constraintEnd_toEndOf="@+id/genreText"
         tools:text="次の画面へ" />
@@ -162,4 +163,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cButton"
         tools:text="D --" />
+
+    <Button
+        android:id="@+id/resultButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/nextbtn_border"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="@+id/genreText"
+        tools:text="結果画面へ" />
 </android.support.constraint.ConstraintLayout>
