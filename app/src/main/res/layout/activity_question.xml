@@ -18,31 +18,43 @@
         android:layout_marginStart="8dp"
         android:background="@drawable/titlebtn_border"
         android:padding="0dp"
+        android:text="@string/Title_btn"
         android:textColor="#d71"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/nextButton"
-        app:layout_constraintStart_toEndOf="@+id/undoButton"
-        tools:text="タイトルへ" />
+        app:layout_constraintEnd_toStartOf="@+id/resultButton"
+        app:layout_constraintStart_toEndOf="@+id/undoButton" />
 
     <Button
         android:id="@+id/undoButton"
         android:layout_width="100dp"
         android:layout_height="40dp"
         android:background="@drawable/undo_border"
+        android:text="@string/back"
         android:textColor="#d71"
         app:layout_constraintBottom_toBottomOf="@+id/titleButton"
-        app:layout_constraintStart_toStartOf="@+id/genreText"
-        tools:text="戻る" />
+        app:layout_constraintStart_toStartOf="@+id/genreText" />
 
     <Button
         android:id="@+id/nextButton"
         android:layout_width="100dp"
         android:layout_height="40dp"
         android:background="@drawable/nextbtn_border"
+        android:text="@string/next_btn"
         android:textColor="#fff"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="@+id/titleButton"
         app:layout_constraintEnd_toEndOf="@+id/genreText"
         tools:text="次の画面へ" />
+
+    <Button
+        android:id="@+id/resultButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/nextbtn_border"
+        android:text="@string/result_btn"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="@+id/genreText"
+        tools:text="結果画面へ" />
 
     <TextView
         android:id="@+id/genreText"
@@ -55,6 +67,7 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/genre_border"
         android:gravity="center_vertical|center_horizontal"
+        android:text="@string/quiz_title"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,13 +85,13 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/border"
+        android:text="@string/quiz_count"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/genreText"
-        tools:text="○問中 ○問目" />
+        app:layout_constraintTop_toBottomOf="@+id/genreText" />
 
     <TextView
         android:id="@+id/QuestionText"
@@ -91,12 +104,12 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/border"
         android:gravity="center_horizontal"
+        android:text="@string/quiz_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/questionCount"
-        tools:text="問○\n―――――――――――――\n―――――――――――――\n―――――――――――――\n―――――――――――――" />
+        app:layout_constraintTop_toBottomOf="@+id/questionCount" />
 
     <Button
         android:id="@+id/aButton"
@@ -108,12 +121,12 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/border"
+        android:text="@string/a_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/QuestionText"
-        tools:text="A --" />
+        app:layout_constraintTop_toBottomOf="@+id/QuestionText" />
 
     <Button
         android:id="@+id/bButton"
@@ -124,12 +137,12 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:background="@drawable/border"
+        android:text="@string/b_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/aButton"
-        tools:text="B --" />
+        app:layout_constraintTop_toBottomOf="@+id/aButton" />
 
     <Button
         android:id="@+id/cButton"
@@ -140,6 +153,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:background="@drawable/border"
+        android:text="@string/c_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
@@ -156,10 +170,12 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:background="@drawable/border"
+        android:text="@string/d_text"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cButton"
         tools:text="D --" />
+
 </android.support.constraint.ConstraintLayout>

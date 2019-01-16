@@ -15,4 +15,16 @@
     <string name="back">戻る</string>
     <string name="submit">確定する</string>
     <string name="Genre_selection">ジャンル選択画面</string>
+    <string name="questions">問出題</string>
+    <string name="question_number">全５０問中</string>
+    <string name="question_title">問題数選択</string>
+    <string name="next_btn">次の画面へ</string>
+    <string name="result_btn">結果画面へ</string>
+    <string name="quiz_title">○問題</string>
+    <string name="quiz_count">○問中 ○問目</string>
+    <string name="quiz_text">問○\n―――――――――――――\n―――――――――――――\n―――――――――――――\n―――――――――――――</string>
+    <string name="a_text">A --</string>
+    <string name="b_text">B --</string>
+    <string name="c_text">C --</string>
+    <string name="d_text">D --</string>
 </resources>
