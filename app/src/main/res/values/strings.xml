@@ -15,4 +15,10 @@
     <string name="back">戻る</string>
     <string name="submit">確定する</string>
     <string name="Genre_selection">ジャンル選択画面</string>
+    <string name="question_number_title">問題数選択</string>
+    <string name="question_number">全５０問</string>
+    <string name="questions">問出題</string>
+    <string-array name="question_number_list">
+        <item>1</item>
+    </string-array>
 </resources>
