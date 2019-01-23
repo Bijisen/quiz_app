@@ -24,7 +24,7 @@ class ResultActivity : AppCompatActivity() {
         }
 
         val janru_btn = findViewById<Button>(R.id.janru_button)
-        resultbtn.setOnClickListener {
+        janru_btn.setOnClickListener {
             intent = Intent(this, GenreActivity::class.java)
             startActivity(intent)
         }

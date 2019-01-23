@@ -3,7 +3,6 @@ package com.example.android.sample.quizapp
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import kotlinx.android.synthetic.main.activity_question_number.*
 
@@ -13,7 +12,7 @@ class AnimeTitleActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_anime_title)
 
-        val nextButton = findViewById<Button>(R.id.nextButton)
+        val nextbutton = findViewById<Button>(R.id.nextButton)
         val backButton = findViewById<Button>(R.id.backButton)
 
         nextButton.setOnClickListener() {
