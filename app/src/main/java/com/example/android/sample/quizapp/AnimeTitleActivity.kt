@@ -17,7 +17,7 @@ class AnimeTitleActivity : AppCompatActivity() {
         val backButton = findViewById<Button>(R.id.backButton)
 
         nextButton.setOnClickListener() {
-            val intent = Intent(this, TitleActivity::class.java)
+            val intent = Intent(this, QuestionActivity::class.java)
             startActivity(intent)
         }
 
