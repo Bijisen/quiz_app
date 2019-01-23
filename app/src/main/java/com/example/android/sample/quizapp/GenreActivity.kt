@@ -28,7 +28,8 @@ class GenreActivity : AppCompatActivity() {
      }
 
      button6.setOnClickListener(){
-         val intent = Intent
+         val intent = Intent(this, TitleActivity::class.java)
+         startActivity(intent)
      }
 
     }
