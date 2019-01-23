@@ -21,8 +21,7 @@ class AnimeTitleActivity : AppCompatActivity() {
         }
 
         backButton.setOnClickListener() {
-            val intent = Intent(this, TitleActivity::class.java)
-            startActivity(intent)
+            finish()
         }
     }
 }

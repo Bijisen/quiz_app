@@ -49,7 +49,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="32dp"
         android:background="@color/selectorColor"
         android:text="@string/select"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -66,7 +66,7 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="16dp"
         android:background="@color/selectorColor"
         android:text="@string/deselect"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -77,29 +77,25 @@
 
     <Button
         android:id="@+id/backButton"
-        android:layout_width="wrap_content"
-        android:layout_height="31dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:background="@color/backBtnColor"
         android:text="@string/back"
         android:textColor="@color/nextBtnColor"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/animeTitle"
-        app:layout_constraintTop_toBottomOf="@+id/animeList" />
+        app:layout_constraintStart_toStartOf="@+id/animeTitle" />
 
     <Button
         android:id="@+id/nextButton"
-        android:layout_width="wrap_content"
-        android:layout_height="31dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="16dp"
         android:background="@color/nextBtnColor"
         android:text="@string/submit"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/animeTitle"
-        app:layout_constraintTop_toBottomOf="@+id/animeList" />
+        app:layout_constraintEnd_toEndOf="@+id/animeTitle" />
 </android.support.constraint.ConstraintLayout>
