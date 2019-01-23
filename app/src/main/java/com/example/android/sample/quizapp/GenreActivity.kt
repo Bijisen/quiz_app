@@ -11,8 +11,6 @@ class GenreActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_genre)
 
-     val intent = Intent(this, ResultActivity::class.java)
-        startActivity(intent)
 
      val button5 = findViewById<Button>(R.id.button5)
      val titleButton = findViewById<Button>(R.id.titleButton)
