@@ -12,7 +12,7 @@ class AnimeTitleActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_anime_title)
 
-        val nextbutton = findViewById<Button>(R.id.nextButton)
+        val nextButton = findViewById<Button>(R.id.nextButton)
         val backButton = findViewById<Button>(R.id.backButton)
 
         nextButton.setOnClickListener() {
@@ -21,8 +21,7 @@ class AnimeTitleActivity : AppCompatActivity() {
         }
 
         backButton.setOnClickListener() {
-            val intent = Intent(this, TitleActivity::class.java)
-            startActivity(intent)
+            finish()
         }
     }
 }
