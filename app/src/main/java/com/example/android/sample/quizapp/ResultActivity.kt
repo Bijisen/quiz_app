@@ -17,6 +17,16 @@ class ResultActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val resultbtn = findViewById<Button>(R.id.anime_titleButton)
+        resultbtn.setOnClickListener {
+            intent = Intent(this, AnimeTitleActivity::class.java)
+            startActivity(intent)
+        }
 
+        val janru_btn = findViewById<Button>(R.id.janru_button)
+        resultbtn.setOnClickListener {
+            intent = Intent(this, GenreActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
