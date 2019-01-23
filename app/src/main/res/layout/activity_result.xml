@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="350"
-        android:layout_height="40"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -26,9 +26,9 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="100"
-        android:layout_height="40"
+        android:id="@+id/titleButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
@@ -42,9 +42,9 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="100"
-        android:layout_height="40"
+        android:id="@+id/janru_button"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
@@ -55,9 +55,9 @@
         app:layout_constraintStart_toStartOf="@+id/textView" />
 
     <Button
-        android:id="@+id/button7"
-        android:layout_width="100"
-        android:layout_height="40"
+        android:id="@+id/anime_titleButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
         android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
@@ -65,17 +65,15 @@
         android:text="@string/Anime_Title"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
         android:textColor="@color/back_title_color"
-        android:textColorLink="@color?back_title_color"
+        android:textColorLink="@color/back_title_color"
         android:textSize="9sp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/janru_button"
         app:layout_constraintStart_toStartOf="@+id/textView" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="0dp"
         android:layout_height="93dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@color/normalColor"
         android:orientation="vertical"
