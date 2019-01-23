@@ -17,13 +17,12 @@ class AnimeTitleActivity : AppCompatActivity() {
         val backButton = findViewById<Button>(R.id.backButton)
 
         nextButton.setOnClickListener() {
-            val intent = Intent(this, QuestionActivity::class.java)
+            val intent = Intent(this, GenreActivity::class.java)
             startActivity(intent)
         }
 
         backButton.setOnClickListener() {
-            val intent = Intent(this, TitleActivity::class.java)
-            startActivity(intent)
+            finish()
         }
     }
 }
