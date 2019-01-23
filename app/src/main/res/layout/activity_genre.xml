@@ -16,14 +16,12 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:background="@drawable/titlebtn_border"
         android:padding="0dp"
         android:textColor="#d71"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button6"
         app:layout_constraintStart_toEndOf="@+id/button5"
-        app:layout_constraintTop_toBottomOf="@+id/animeList"
         tools:text="タイトルへ" />
 
     <ListView
@@ -99,25 +97,20 @@
         android:layout_width="wrap_content"
         android:layout_height="31dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
         android:background="@color/backBtnColor"
         android:text="@string/back"
         android:textColor="@color/nextBtnColor"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/animeTitle"
-        app:layout_constraintTop_toBottomOf="@+id/animeList"
-        app:layout_constraintVertical_bias="0.571" />
+        app:layout_constraintStart_toStartOf="@+id/animeTitle" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="31dp"
         android:layout_marginBottom="8dp"
-        android:layout_marginTop="8dp"
         android:background="@color/nextBtnColor"
         android:text="@string/submit"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/animeTitle"
-        app:layout_constraintTop_toBottomOf="@+id/animeList" />
+        app:layout_constraintEnd_toEndOf="@+id/animeTitle" />
 </android.support.constraint.ConstraintLayout>
