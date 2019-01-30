@@ -4,6 +4,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import kotlinx.android.synthetic.main.anime_title_listitem.*
 
 class GenreActivity : AppCompatActivity() {
 
@@ -26,7 +27,7 @@ class GenreActivity : AppCompatActivity() {
      }
 
      button6.setOnClickListener(){
-         val intent = Intent(this, TitleActivity::class.java)
+         val intent = Intent(this, QuestionNumberActivity::class.java)
          startActivity(intent)
      }
 
