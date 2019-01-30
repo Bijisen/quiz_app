@@ -15,6 +15,7 @@ class QuestionNumberActivity : AppCompatActivity() {
 
         val nextButton = findViewById<Button>(R.id.nextButton)
         val backButton = findViewById<Button>(R.id.backButton)
+        val titleButton = findViewById<Button>(R.id.titleButton)
 
         nextButton.setOnClickListener(){
             val intent = Intent(this, QuestionActivity::class.java)
@@ -23,6 +24,11 @@ class QuestionNumberActivity : AppCompatActivity() {
 
         backButton.setOnClickListener(){
             val intent = Intent(this, GenreActivity::class.java)
+            startActivity(intent)
+        }
+
+        titleButton.setOnClickListener(){
+            val intent = Intent(this, TitleActivity::class.java)
             startActivity(intent)
         }
     }
