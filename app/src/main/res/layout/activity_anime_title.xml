@@ -79,7 +79,7 @@
         android:id="@+id/backButton"
         android:layout_width="100dp"
         android:layout_height="40dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginStart="8dp"
         android:background="@color/backBtnColor"
@@ -90,9 +90,9 @@
 
     <Button
         android:id="@+id/nextButton"
-        android:layout_width="wrap_content"
-        android:layout_height="31dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="8dp"
         android:background="@color/nextBtnColor"
         android:text="@string/submit"
         android:textColor="@android:color/white"
